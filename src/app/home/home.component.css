@@ -1,0 +1,25 @@
+
+.mat-button:hover {
+  background-color: aqua;
+}
+
+.main {
+  background-color: rgb(48, 68, 180);
+  width: auto;
+  height: 60px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.thoda_upar {
+  margin-bottom: 5px;
+}
+
+.text_color {
+  color: white;
+}
