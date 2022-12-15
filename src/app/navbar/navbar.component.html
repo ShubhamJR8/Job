@@ -6,6 +6,6 @@
   <a mat-button class="text_color button-effect">Referral Provider</a>
   <span class="example-spacer"></span>
   <a mat-button class="text_color button-effect">Profile</a>
-  <a mat-button class="text_color button-effect">Login</a>
-  <a mat-raised-button color="accent" class="text_color">Sign Up</a>
+  <a mat-button class="text_color button-effect" [routerLink]="['/login']" routerLinkActive="active">Login</a>
+  <a mat-raised-button color="accent" class="text_color" [routerLink]="['/signup']" routerLinkActive="active">Sign Up</a>
 </mat-toolbar>
